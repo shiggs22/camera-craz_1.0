@@ -1,0 +1,183 @@
+/*-------------------------
+	Custom styles
+-------------------------*/
+
+/*-------------------------
+	Global resets
+-------------------------*/
+body{
+	background-image: url(../foundation-5/img/bg_2.gif);
+	font-family: "Palatino Linotype", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.row{
+	max-width: 960px;
+}
+
+
+/*-------------------------
+	Top nav styles
+-------------------------*/
+nav ul li{
+	float: left;
+	text-align: right;
+}
+
+.has-form{
+	float: right;
+}
+/*-------------------------
+	Header styles
+-------------------------*/
+h1, h2, h3, h4 {
+	color: white;
+	font-family: "PT Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/*-------------------------
+	Main article styles
+-------------------------*/
+.panel{
+	background-image: url(../foundation-5/img/texture_3.jpg);
+}
+
+p{
+	color: white;
+}
+
+.description{
+	color: white;
+}
+
+.pricing{
+	color: white;
+}
+
+.review{
+	color: white;
+}
+/*-------------------------
+	Form styles
+-------------------------*/
+.form_1{
+	margin-top: 100px;
+	background-image: url(../foundation-5/img/texture_3.jpg);
+	padding: 0px 30px;
+	
+}
+.sign{
+	color: black;
+}
+
+.form_3{
+	background-image: url(../foundation-5/img/texture_3.jpg);
+	width: 440px;
+	float: left;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+section.panel{
+	width: 440px;
+	float: right;
+	background-image: url(../foundation-5/img/texture_2.jpg);
+	
+}
+
+.sign_up{
+	color: black;
+}
+/*-------------------------
+	Footer styles
+-------------------------*/
+footer{
+	background: #6699FF;
+	text-align: right;
+	padding-top: 15px;
+	clear: both;
+	
+}
+
+.footer_1{
+	margin-top: 200px;
+}
+
+/* =Media Queries
+	=================================================*/
+
+
+/* Tablet Portrait size to standard 790 (devices and browsers) */
+	@media screen and (min-width: 540px)and (max-width: 720px) {
+	
+	
+/*-------------------------
+	Top nav styles
+-------------------------*/
+
+/*-------------------------
+	Header styles
+-------------------------*/
+
+/*-------------------------
+	Main article styles
+-------------------------*/
+
+/*-------------------------
+	Form styles
+-------------------------*/
+
+/*-------------------------
+	Footer styles
+-------------------------*/
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 539px){
+
+
+/*-------------------------
+	Top nav styles
+-------------------------*/
+
+/*-------------------------
+	Header styles
+-------------------------*/
+
+/*-------------------------
+	Main article styles
+-------------------------*/
+
+/*-------------------------
+	Form styles
+-------------------------*/
+
+/*-------------------------
+	Footer styles
+-------------------------*/
+}
+
+/* Mobile Portrait Size to Mobile Landscape (devices and browsers) */
+	@media only screen and (max-width: 479px){
+
+
+/*-------------------------
+	Top nav styles
+-------------------------*/
+
+/*-------------------------
+	Header styles
+-------------------------*/
+
+/*-------------------------
+	Main article styles
+-------------------------*/
+
+/*-------------------------
+	Form styles
+-------------------------*/
+
+/*-------------------------
+	Footer styles
+-------------------------*/			
+}
+
